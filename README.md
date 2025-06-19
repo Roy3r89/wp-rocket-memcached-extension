@@ -18,25 +18,76 @@
 
 ---
 
-📦 Instalación (ZIP)
-🇪🇸 Español
-Descarga el archivo ZIP del plugin desde la sección de Releases.
+## 📦 Installation (ZIP)
 
-Accede a tu panel de WordPress.
+### 🇪🇸 Español
 
-Ve a Plugins → Añadir nuevo → Subir plugin.
+1. Descarga el archivo `.zip` del plugin desde la sección de [Releases](https://github.com/Roy3r89/wp-rocket-memcached-extension/releases).
+2. Accede a tu panel de WordPress.
+3. Ve a **Plugins → Añadir nuevo → Subir plugin**.
+4. Selecciona el archivo `.zip` y haz clic en **Instalar ahora**.
+5. Activa el plugin después de la instalación.
 
-Selecciona el archivo ZIP y haz clic en Instalar ahora.
+---
 
-Activa el plugin tras la instalación.
+### 🇬🇧 English
 
-🇬🇧 English
-Download the plugin ZIP file from the Releases section.
+1. Download the `.zip` plugin file from the [Releases](https://github.com/Roy3r89/wp-rocket-memcached-extension/releases) section.
+2. Go to your WordPress admin panel.
+3. Navigate to **Plugins → Add New → Upload Plugin**.
+4. Select the `.zip` file and click **Install Now**.
+5. Activate the plugin after installation.
 
-Go to your WordPress admin panel.
+---
 
-Navigate to Plugins → Add New → Upload Plugin.
+## 🖥️ Admin Panel | Panel de Administración
 
-Select the ZIP file and click Install Now.
+Find the plugin menu at:  
+**`Settings → WP Rocket Memcached`**
 
-Activate the plugin after installation.
+There you can:
+
+| EN                                      | ES                                         |
+|----------------------------------------|-------------------------------------------|
+| 🔹 See cache stats & Memcached status | 🔹 Ver estadísticas y estado del sistema  |
+| 🔹 Add/remove Memcached servers        | 🔹 Añadir/quitar servidores Memcached      |
+| 🔹 Set cache TTL and key prefix        | 🔹 Definir TTL y prefijo de claves         |
+| 🔹 Manually purge cache or logs        | 🔹 Borrar caché o logs manualmente         |
+
+---
+
+## 🌍 Languages | Idiomas
+
+- 🇬🇧 English (default)
+- 🇪🇸 Español
+- 📁 Ready for translation with `.pot` file in `/languages/`
+
+---
+
+## 📝 Requirements | Requisitos
+
+- PHP 7.4 or higher
+- WordPress 5.8+
+- WP Rocket (installed & activated)
+- Memcached PHP extension enabled
+
+---
+
+## 🛠️ Developer Notes
+
+- Custom log file stored in `wp-content/uploads/memcached.log`
+- Cache key index stored optionally in custom table
+- Hooks available for extending purge system
+
+---
+
+## 📜 License | Licencia
+
+MIT © [Roy3r89](https://github.com/Roy3r89)
+
+---
+
+## 🤝 Contributing | Contribuir
+
+> PRs and translations are welcome!  
+> ¡Se aceptan Pull Requests y traducciones!
