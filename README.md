@@ -18,9 +18,25 @@
 
 ---
 
-## 📦 Installation | Instalación
+📦 Instalación (ZIP)
+🇪🇸 Español
+Descarga el archivo ZIP del plugin desde la sección de Releases.
 
-### 🔧 Manual
-1. Download or clone this repository:
-   ```bash
-   git clone https://github.com/tuusuario/wp-rocket-memcached-extension.git
+Accede a tu panel de WordPress.
+
+Ve a Plugins → Añadir nuevo → Subir plugin.
+
+Selecciona el archivo ZIP y haz clic en Instalar ahora.
+
+Activa el plugin tras la instalación.
+
+🇬🇧 English
+Download the plugin ZIP file from the Releases section.
+
+Go to your WordPress admin panel.
+
+Navigate to Plugins → Add New → Upload Plugin.
+
+Select the ZIP file and click Install Now.
+
+Activate the plugin after installation.
